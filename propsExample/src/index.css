@@ -1,0 +1,33 @@
+header
+{
+  height: 100px;
+  background-color: gray;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+main
+{
+  min-height: calc(100vh - 100px);
+  background: linear-gradient(gray,black);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+main > .card
+{
+  height: 250px;
+  width: 450px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 4px 10px 3px;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: linear-gradient(skyblue,black);
+}

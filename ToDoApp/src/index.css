@@ -1,0 +1,94 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+.outer{
+  min-height: 100vh;
+  background: linear-gradient(rgb(243, 12, 12),white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:20px;
+}
+
+.outer > h1{
+  font-size: 90px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: white;
+  text-shadow: 2px 2px 3px black;
+}
+
+header{
+  width: 400px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap:10px;
+}
+
+header > input{
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+}
+
+header > button{
+  border: none;
+  background-color:rgb(234, 234, 234);
+  color:rgb(9, 2, 2);
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+header > button:hover{
+  background-color:  rgb(9, 28, 232);
+  color: rgb(243, 237, 237);
+}
+
+main > li{
+  width: 400px;
+  background-color: rgb(243, 236, 237);
+  margin-bottom: 10px;
+  padding: 10px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap:10px;
+  border-radius: 10px;
+  letter-spacing: 1.4px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.6);
+}
+
+main > li > button{
+  padding: 7px;
+  border: none;
+  letter-spacing: 1.4px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+}
+
+main > li > button:hover{
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.6);
+  transform: scale(1.05);
+}
+
+main > li > button:nth-child(2)
+{
+  background-color: red;
+  color:white;
+}
+main > li > button:nth-child(1)
+{
+  background-color: rgb(20, 231, 20);
+}
+h3
+{
+  color: #ccc;
+  font-size: 35px;
+}

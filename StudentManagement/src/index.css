@@ -1,0 +1,160 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav
+{ 
+  height: 150px;
+  background-color: coral;
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10%;
+  gap: 30px;
+  font-size: 30px;
+  color: aliceblue;
+  text-shadow: 3px 4px 5px black;
+}
+nav a
+{
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+.addStudent
+{
+   display: flex;
+   justify-content: center;
+  align-items: center;
+  padding: 30px;
+ 
+}
+.addStudent > form
+{
+  height: 500px;
+  width: 500px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  box-shadow: 0px 6px 4px 5px black;
+  background-color: cadetblue;
+}
+form > input
+{
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 3px 4px 5px black;
+  border: none;
+}
+form > button
+{
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+button:hover
+{
+  background-color: coral;
+  color: aliceblue;
+}
+
+
+.displayStudents {
+  min-height: calc(100vh - 80px);
+  padding: 20px 5%;
+  background-color: #f4f5ff;
+  overflow-x: auto;
+}
+.displayStudents > h1
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+ 
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(81, 78, 78);
+  text-shadow: 0px 3px 4px black;
+}
+.displayStudents table {
+  width: 100%;
+  min-width: 750px;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(109, 109, 251, 0.15);
+  
+}
+.displayStudents thead {
+  background-color: #060653d3;
+  color: white;
+}
+
+.displayStudents th {
+  padding: 16px 14px;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: capitalize;
+  white-space: nowrap;
+  border-right: 3px solid gray;
+  border-left: 3px solid gray;
+
+}
+
+.displayStudents td {
+  padding: 19px;
+  font-size: 19px;
+  color: #444;
+  text-align: center;
+  border-bottom: 9px solid gray;
+  border-right: 3px solid gray;
+  border-left: 3px solid gray;
+}
+
+.displayStudents tbody tr:nth-child(even) {
+  background-color: #f9f9ff;
+}
+
+
+.displayStudents tbody tr {
+  transition: background-color 0.4s;
+}
+
+.displayStudents tbody tr:hover {
+  background-color: #c7c7df;
+}
+
+.displayStudents td button
+{
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  border-radius: 6px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+.displayStudents td button:first-child:hover
+{
+  background-color: green;
+  color: white;
+}
+.displayStudents td:last-child button:hover
+{
+  background-color:red;
+  color: white;
+}

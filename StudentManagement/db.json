@@ -1,0 +1,37 @@
+{
+  "students": [
+    {
+      "sname": "Parthiban",
+      "sid": "01",
+      "semail": "parthi@gmail.com",
+      "phone": "6389065390",
+      "dept": "BCA",
+      "id": "zu1GNx03I6Y"
+    },
+    {
+      "sname": "nelson",
+      "sid": "02",
+      "semail": "nelson@gmail.com",
+      "phone": "7986512589",
+      "dept": "EEE",
+      "id": "jUy3tYm4nu4"
+    },
+    {
+      "sname": "manoj",
+      "sid": "03",
+      "semail": "manoj@gmail.com",
+      "phone": "6854684865",
+      "dept": "BSC",
+      "id": "YwTg1tfPTyo"
+    },
+    {
+      "sname": "Praveen",
+      "sid": "04",
+      "semail": "praveen@gmail.com",
+      "phone": "6379065998",
+      "dept": "BCA",
+      "id": "vm9Kr69DSMQ"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

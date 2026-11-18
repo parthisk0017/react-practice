@@ -1,0 +1,120 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+.signup{
+  height: 100vh;
+  background: linear-gradient(skyblue,white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:25px;
+}
+
+.signup > h1{
+  font-size: 50px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+form{
+  width: 350px;
+  padding: 20px 40px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.6);
+
+}
+
+.signup > footer
+{
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px;
+}
+form > input{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  border: 2px solid #ccc;
+}
+form > label{
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+form > button{
+  background-color: #333;
+  color:white;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+
+}
+
+
+/* home page css */
+
+.homePage{
+  min-height: 100vh;
+  background:linear-gradient(skyblue,white);
+}
+
+.homePage header{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homePage input{
+  width: 60%;
+  padding: 12px;
+  font-size: 19px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  letter-spacing: 2px;
+}
+
+.homePage main{
+  padding: 20px;
+}
+
+.homePage li{
+
+  width: 70%;
+  background-color: lightpink;
+  margin: 15px auto;
+  padding: 10px;
+  border-radius: 10px;
+  list-style: none;
+  font-weight: bold;
+  letter-spacing: 1.4px;
+  box-shadow: 2px 3px 7px rgba(0,0,0,0.6);
+}
+
+.homePage li:nth-child(2n)
+{
+  background-color: #444;
+  color:white;
+}
+
+.homePage li:hover{
+  background-color: orangered;
+  color:white;
+}

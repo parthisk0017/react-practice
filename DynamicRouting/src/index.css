@@ -1,0 +1,177 @@
+
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+h1
+{
+  font-size: 34px;
+  color: brown;
+  text-shadow: 0px 4px 5px rgb(16, 4, 4);
+  text-decoration: underline;
+}
+
+nav 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+nav a
+{
+  color:brown ;
+  text-decoration: line-through;
+  padding: 20px;
+}
+
+.container
+{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 40px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.card
+{
+  height: 400px;
+  width: 400px;
+  font-size: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  box-shadow: 4px 7px 8px black;
+  background: linear-gradient(rgb(238, 110, 238) ,white);
+  gap: 30px;
+  font-weight: bold;
+  cursor: grabbing;
+}
+
+.card > :nth-child(2)
+{
+  color: red ;
+}
+
+ .card > button
+ {
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-size: 17px;
+  font-weight: bolder;
+  cursor: grab;
+  border: none;
+ }
+ .card > button:hover
+ {
+  background-color: brown;
+  color: aliceblue;
+  transform: scale(1.1);
+ }
+
+ .card:hover
+ {
+  transform: scale(1.04);
+ }
+
+
+
+/* Singleproduct css */
+
+ .soloproduct
+ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 90px ;
+  background-color: brown;
+  height: 100vh;
+ }
+ .soloproduct > .productcard
+ {
+  height: 500px;
+  width: 500px;
+  box-shadow: 9px 9px 09px black;
+  border-radius: 30px;
+  background-color: rgb(171, 167, 167);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ }
+img
+{
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+}
+.productcard > p
+{
+  padding: 10px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.productcard > p:nth-child(3)
+{
+  color: red;
+}
+.productcard > p:nth-child(5)
+{
+  color: red;
+  height: 40px;
+  width: 60px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  cursor: help;
+}
+footer
+{
+  padding: 30px;
+}
+footer > button
+{
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+
+}
+footer > button:hover
+{
+  background-color:green ;
+  color: white;
+   font-size: 15px;
+  font-weight: bold;
+}
+.homepage
+{
+  background-color: red;
+  height: 100vh;
+  padding: 40px;
+}
+
+.homepage > button
+{
+  height: 700px;
+  width: 90%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-left: 90px;
+ font-size: 50px;
+ font-weight: bolder;
+ border-radius: 0px 990px   1990px;
+ background-color: chartreuse;
+ cursor: grabbing;
+ color: aliceblue;
+}
